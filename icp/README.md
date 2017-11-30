@@ -16,7 +16,7 @@ https://docs.docker.com/docker-for-windows/install/
 ## docker 常用命令
 
 ### images 常用命令
-* 在docker hub上搜索images
+- 在docker hub上搜索images
     docker search <images name>
     Example: docker search tomcat
 
