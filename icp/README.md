@@ -1,40 +1,38 @@
 # Docker
 
 ## Installation docker ce
-###Mac
+### Mac
 https://docs.docker.com/docker-for-mac/install/
 
-###Windows
+### Windows
 https://docs.docker.com/docker-for-windows/install/
 
 
 ## Sign up docker hub's account
-
-访问网站注册docker hub账号
-https://hub.docker.com
-
-注册完成后，在本机docker登录
+    访问网站注册docker hub账号
+    https://hub.docker.com
+    注册完成后，在本机docker登录
 
 ## docker 常用命令
 
 ### images 常用命令
-在docker hub上搜索images
-docker search <images name>
-Example: docker search tomcat
+* 在docker hub上搜索images
+    docker search <images name>
+    Example: docker search tomcat
 
-拉去镜像
-docker pull username/repository<:tag_name>
-Example: docker pull tomcat
+* 拉去镜像
+    docker pull username/repository<:tag_name>
+    Example: docker pull tomcat
 
-列出机器上的镜像
-docker images
-yanfa-mbp:~ yanfaz$ docker images | grep tomcat
-tomcat                          latest                         11df4b40749f        2 weeks ago         558MB
+* 列出机器上的镜像
+    docker images
+    yanfa-mbp:~ yanfaz$ docker images | grep tomcat
+    tomcat                          latest                         11df4b40749f        2 weeks ago         558MB
 
 
-删除镜像
-docker rmi <image id> or <image name:tag name>
-Example: docker rmi tomcat  or docker rmi 11df4b40749f
+* 删除镜像
+    docker rmi <image id> or <image name:tag name>
+    Example: docker rmi tomcat  or docker rmi 11df4b40749f
 
 ### container 常用命令
 
